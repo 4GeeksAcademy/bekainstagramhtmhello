@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+}
+
+.post {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10% 35%;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0;
+}
+
+.post-header .contenido {
+    width: 100%;
+}
+
+.html5,
+.rigoberto {
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.post-header img {
+    height: 40px;
+    border-radius: 20%;
+    margin-left: 5px;
+}
+
+.post-img img {
+    width: 100%;
+}
+
+.post-icons {
+    display: flex
+}
+
+.post-icons {
+    display: flex;
+    align-items: center;
+}
+
+.post-icons img {
+    height: 40px;
+}
+
+:nth-child(4) {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+p {
+    text-align: justify;
+    margin: 10px;
+}
